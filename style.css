@@ -1,9 +1,15 @@
 body{
 
-    background-color: lightslategray;
-    color: yellow;
+    background-color: lightslategray; /* cor de fundo da página */
+    color: yellow; /* cor da escrita */
 }
 h1 {
-     font-size: 30px;
-    text-align: center;
+     font-size: 30px;  /* tamanho da fonte */
+    text-align: center;  /* centralizado */
+    text-transform: uppercase; /* letras maiúculas */
+}
+
+p {
+    font-size: 16px;
+    color: green;
 }
