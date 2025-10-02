@@ -8,6 +8,17 @@ header {
  padding: 10px;
  color: cadetblue;
 }
+section {
+    background-color: darkred; /* Cor escolhida */
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto{
+    margin-right: 5%;
+    
+}
 
 
 h1 {
