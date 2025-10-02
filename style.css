@@ -1,6 +1,7 @@
 body{
     background-color: lightslategray; /* cor de fundo da página */
     color: yellow; /* cor da escrita */
+    font-family: "Cookie", sans-serif;
 }
 header {
  border: solid 2px rgb(255, 255, 0) ;
@@ -17,7 +18,7 @@ section {
 }
 .chamada-texto{
     margin-right: 5%;
-    
+
 }
 
 
