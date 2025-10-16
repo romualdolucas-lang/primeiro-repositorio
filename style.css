@@ -2,6 +2,8 @@ body{
     background-color: lightslategray; /* cor de fundo da página */
     color: yellow; /* cor da escrita */
     font-family: "Cookie", sans-serif;
+    margin: 0px;
+    margin-bottom: 100px;
 }
 header {
  border: solid 2px rgb(255, 255, 0) ;
@@ -9,7 +11,7 @@ header {
  padding: 10px;
  color: cadetblue;
 }
-section {
+.chamada {
     background-color: darkred; /* Cor escolhida */
     padding-bottom: 80px;
     padding-top: 80px;
@@ -30,5 +32,27 @@ h1 {
 
 p {
     font-size: 16px;
-    color: green;
+    color: rgb(52, 23, 56);
+}
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-videos {
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(119, 78, 123);
+}
+
+.categoria h2 {
+    color: ghostwhite;
 }
